@@ -1,0 +1,38 @@
+{
+    "$jsonSchema": {
+        "required": [
+            "username"
+        ],
+        "properties": {
+            "username": {
+                "bsonType": "string",
+                "description": "must be leetcode username"
+            },
+            "easy_status": {
+                "bsonType": "string",
+                "description": "leetcode easy problem solving status"
+            },
+            "medium_status": {
+                "bsonType": "string",
+                "description": "leetcode medium problem solving status"
+            },
+            "hard_status": {
+                "bsonType": "string",
+                "description": "leetcode hard problem solving status"
+            },
+            "total_solved": {
+                "bsonType": "int",
+                "description": "leetcode total solved problem"
+            },
+            "total_problem": {
+                "bsonType": "int",
+                "description": "leetcode total problem"
+            },
+            "language_info" : {
+                "bsonType" : "object",
+                "description" : "the status of language and the corresponding solved problem."
+            }
+            
+        }
+    }
+}
