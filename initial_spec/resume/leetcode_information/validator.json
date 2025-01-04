@@ -21,11 +21,11 @@
                 "description": "leetcode hard problem solving status"
             },
             "total_solved": {
-                "bsonType": "int",
+                "bsonType": "string",
                 "description": "leetcode total solved problem"
             },
             "total_problem": {
-                "bsonType": "int",
+                "bsonType": "string",
                 "description": "leetcode total problem"
             },
             "language_info" : {
