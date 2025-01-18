@@ -3,12 +3,12 @@
         {
             "keys": [
                 {
-                    "leetcode_username": "ASCENDING"
+                    "username": "ASCENDING"
                 }
             ],
             "options": {
                 "background": true,
-                "unique": true
+                "unique": false
             }
         }
     ]

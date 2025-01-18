@@ -1,0 +1,41 @@
+{
+    "$jsonSchema": {
+        "required": [
+            "username"
+        ],
+        "properties": {
+            "username": {
+                "bsonType": "string",
+                "description": "username"
+            },
+            "leetcode_username" : {
+                "bsonType" : "string",
+                "description" : "leetcode website username"
+            },
+            "email" : {
+                "bsonType" : "string",
+                "description" : "user email"
+            },
+            "blood_type": {
+                "bsonType": "string",
+                "description": "blood type"
+            },
+            "sex" : {
+                "bsonType" : "string",
+                "description" : "sex"
+            },
+            "birth_date" : {
+                "bsonType" : "string",
+                "description" : "birthdate"
+            },
+            "update_date" : {
+                "bsonType" : "date",
+                "description" : "the lastest updated time for user info"
+            },
+            "create_date" : {
+                "bsonType" : "date",
+                "description" : "the date acctoun created."
+            }
+        }
+    }
+}

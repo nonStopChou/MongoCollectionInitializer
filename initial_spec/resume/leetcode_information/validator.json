@@ -1,12 +1,12 @@
 {
     "$jsonSchema": {
         "required": [
-            "username"
+            "leetcode_username"
         ],
         "properties": {
-            "username": {
+            "leetcode_username": {
                 "bsonType": "string",
-                "description": "must be leetcode username"
+                "description": "must be leetcode leetcode_username"
             },
             "easy_status": {
                 "bsonType": "string",

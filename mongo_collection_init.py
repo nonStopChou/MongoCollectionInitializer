@@ -41,7 +41,6 @@ try:
 
                         if function_name in FUNCTION_LIST:
                             print(f"JSON file found for database[{database}] and collection[{collection}]: {json_file}")
-
                             with open(os.path.join(json_path, json_file), 'r') as file:
                                 json_data = json.load(file)
                                 db_relation_map[database][collection][function_name] = json_data

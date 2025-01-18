@@ -1,0 +1,41 @@
+{
+    "$jsonSchema": {
+        "required": [
+            "username"
+        ],
+        "properties": {
+            "blogId" : {
+                "bsonType" : "string",
+                "description" : "blogId"
+            },
+            "username": {
+                "bsonType": "string",
+                "description": "username"
+            },
+            "title": {
+                "bsonType": "string",
+                "description": "blog title"
+            },
+            "content": {
+                "bsonType": "string",
+                "description": "blog content"
+            },
+            "additional_properties": {
+                "bsonType": "array",
+                "description": "additional resource like image ...",
+                "items" : {
+                    "bsonType" : "string",
+                    "description" : "image id"
+                }
+            },
+            "create_date" : {
+                "bsonType" : "date",
+                "description" : "the date the blog created."
+            },
+            "update_date" : {
+                "bsonType" : "date",
+                "description" : "latest update time"
+            }
+        }
+    }
+}
